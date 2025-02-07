@@ -32,6 +32,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .movie-card {
@@ -136,6 +138,10 @@ footer a:hover {
     border-radius: 8px;
     padding: 8px 16px;
     transition: background 0.2s, transform 0.1s;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
 }
 
 #paginationControls button:hover {
@@ -376,4 +382,26 @@ h5 {
 .custom-image-modal .close-modal:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: #000;
+}
+
+@media (max-width: 576px) {
+    #paginationControls button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    #movieList {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
 }
