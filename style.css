@@ -405,3 +405,59 @@ h5 {
         padding: 10px;
     }
 }
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #searchInput {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .movie-card {
+        width: 100%;
+        max-width: 290px;
+        padding: 10px;
+        margin: 5px auto;
+    }
+
+    .movie-card img {
+        max-height: 160px;
+    }
+
+    #paginationControls {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    #paginationControls button {
+        padding: 5px 8px;
+        font-size: 12px;
+    }
+
+    #recordsPerPage {
+        font-size: 12px;
+        padding: 4px;
+        width: auto;
+    }
+
+    .modal-dialog {
+        max-width: 95%;
+        margin: 10px auto;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+}
