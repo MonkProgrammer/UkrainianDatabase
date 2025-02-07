@@ -406,7 +406,7 @@ h5 {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
     h1 {
         font-size: 1.4rem;
         text-align: center;
@@ -435,21 +435,29 @@ h5 {
         max-height: 160px;
     }
 
+    .mt-3.d-flex {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #recordsPerPage {
+        font-size: 14px;
+        padding: 6px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
     #paginationControls {
         flex-wrap: wrap;
         justify-content: center;
         gap: 3px;
+        width: 100%;
     }
 
     #paginationControls button {
         padding: 5px 8px;
         font-size: 12px;
-    }
-
-    #recordsPerPage {
-        font-size: 12px;
-        padding: 4px;
-        width: auto;
     }
 
     .modal-dialog {
