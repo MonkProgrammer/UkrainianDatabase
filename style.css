@@ -32,8 +32,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 .movie-card {
@@ -384,29 +382,9 @@ h5 {
     color: #000;
 }
 
-@media (max-width: 576px) {
-    #paginationControls button {
-        padding: 6px 10px;
-        font-size: 14px;
-    }
 
-    h1 {
-        font-size: 1.8rem;
-        text-align: center;
-    }
 
-    #movieList {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .modal-content {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 430px) {
+@media (max-width: 640px) {
     h1 {
         font-size: 1.4rem;
         text-align: center;
